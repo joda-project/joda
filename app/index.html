@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Joda</title>
+    <title>{{content-for "joda.appName"}}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,6 +11,19 @@
 
     <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link rel="stylesheet" href="{{rootURL}}assets/joda.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="{{rootURL}}assets/favicon/apple_76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{rootURL}}assets/favicon/apple_60@2x.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{rootURL}}assets/favicon/apple_76@2x.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="{{rootURL}}assets/favicon/apple_83.5@2x.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{rootURL}}assets/favicon/apple_60@3x.png">
+    <link rel="icon" type="image/png" href="{{rootURL}}assets/favicon/32.png" sizes="32x32">
+    <link rel="shortcut icon" sizes="192x192" href="{{rootURL}}assets/favicon/192.png">
+    <link rel="icon" type="image/png" href="{{rootURL}}assets/favicon/16.png" sizes="16x16">
+    <link rel="manifest" href="{{rootURL}}manifest.json">
+    <link rel="mask-icon" href="{{rootURL}}assets/favicon/apple.svg" color="{{content-for "joda.color"}}">
+    <meta name="theme-color" content="{{content-for "joda.color"}}">
 
     {{content-for "head-footer"}}
   </head>

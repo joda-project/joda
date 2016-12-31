@@ -18,7 +18,8 @@ module.exports = function(environment) {
 
     Joda: {
       appName: 'Joda',
-      copyright: '&copy; 2004-2016 Tadej&nbsp;Novak'
+      copyright: '&copy; 2004-2016 Tadej&nbsp;Novak',
+      color: '#207178'
     },
   };
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300px"
+   height="132px"
+   viewBox="0 0 300 132"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo_symbol.svg">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>yoda</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1190"
+     inkscape:window-height="588"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="1.0333333"
+     inkscape:cx="21.290323"
+     inkscape:cy="65.864516"
+     inkscape:window-x="0"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Page-1" />
+  <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">yoda</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage">
+    <path
+       style="fill:#000000"
+       d="M 150,0 C 125.8793,0 108.223,17.45779 95.8984,36.60742 67.7272,36.76193 37.9434,31.78125 37.9434,31.78125 0.5115,23.75027 4e-4,38.87533 0,38.88672 l 0.01,-0.002 c 15.3574,0.007 30.7129,19.63672 30.7129,19.63672 20.478,25.476 35.832,25.47656 35.832,25.47656 3.2087,0 6.1457,-0.47718 8.8321,-1.19727 -0.1337,2.26644 0.013,4.5378 0.4609,6.74415 1.044,5.17799 4.1768,9.58712 8.2988,12.45512 l 47.8555,30 36,0 47.9941,-30.0957 c 3.474,-2.412 6.3415,-5.89277 7.6075,-10.13477 0.8581,-2.88831 1.1892,-5.93318 1.0097,-8.96875 2.6875,0.72273 5.6258,1.20117 8.836,1.20117 0,0 15.354,-4.2e-4 35.832,-25.48242 0,0 15.3607,-19.63281 30.7207,-19.63281 0,0 -0.4974,-15.13947 -37.9434,-7.10547 0,0 -29.7838,4.98068 -57.955,4.82617 C 191.7772,17.45763 174.1207,0 150,0 Z"
+       id="Fill-1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
