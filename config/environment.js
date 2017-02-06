@@ -21,6 +21,10 @@ module.exports = function(environment) {
       copyright: '&copy; 2004-2016 Tadej&nbsp;Novak',
       color: '#207178'
     },
+
+    moment: {
+      outputFormat: 'LLL'
+    }
   };
 
   if (environment === 'development') {
