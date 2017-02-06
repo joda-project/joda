@@ -43,10 +43,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+## Copyright info
+Copyright (C) 2016-2017 Tadej Novak
+
+This project may be used under the terms of the
+GNU Affero General Public License version 3.0 as published by the
+Free Software Foundation and appearing in the file [LICENSE.md](LICENSE.md).
