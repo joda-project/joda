@@ -14,6 +14,9 @@ module.exports = function(defaults) {
       replaceExtensions: ['html', 'css', 'js', 'xml', 'json']
     },
     storeConfigInMeta: false,
+    'ember-cli-babel': {
+      includePolyfill: true
+    },
     sassOptions: {
       extension: 'sass',
       onlyIncluded: true,
