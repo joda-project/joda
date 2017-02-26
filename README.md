@@ -3,48 +3,17 @@
 [![License][license-img]][license]
 [![Build Status][travis-img]][travis]
 
-Joda is a simple reference management
-web application.
-
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com)
-* [Node.js](https://nodejs.org)
-* [Bower](https://bower.io)
-* [Ember CLI](https://ember-cli.com)
-
-[Joda backend](https://github.com/joda-project/joda-backend)
-is required for development.
-
+Joda is a simple reference management web application.
 
 ## Installation
+Up to date installation instructions will be available at https://joda.tano.si/install/.
 
-* `git clone https://github.com/joda-project/joda` this repository
-* `cd joda`
-* `npm install`
-* `bower install`
-* copy `sample.env` to `.env` and adapt to your local environment
-
-
-## Running / Development
-
-* `ember serve`
-* visit Joda at [http://localhost:4200](http://localhost:4200).
-
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-
-### Deploying
-
-Detailed instructions soon!
-
+## Contributing
+There are several guidelines on contributing to Joda:
+ * [Submitting issues](CONTRIBUTING.md#submitting-issues)
+ * [Proposing a new feature](CONTRIBUTING.md#feature-requests)
+ * [Submiting a pull-request](CONTRIBUTING.md#pull-requests)
+ * [Building instructions](BUILDING.md)
 
 ## Copyright info
 Copyright (C) 2016-2017 Tadej Novak

@@ -1,6 +1,6 @@
 {
   "name": "joda",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.0",
   "description": "A simple reference management web application",
   "license": "AGPL-3.0",
   "author": "Tadej Novak <tadej@tano.si>",
@@ -8,7 +8,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/joda-project/joda",
+  "repository": "joda-project/joda",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -45,7 +45,7 @@
     "ember-power-select": "^1.4.3",
     "ember-resolver": "^2.0.3",
     "ember-source": "~2.11.0",
-    "joda-core": "^0.1.0",
+    "joda-core": "~0.1.0-alpha.0",
     "loader.js": "^4.0.10"
   },
   "engines": {

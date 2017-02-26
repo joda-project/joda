@@ -1,6 +1,0 @@
-{
-  "name": "joda",
-  "dependencies": {
-    "filesize": "^3.3.0"
-  }
-}

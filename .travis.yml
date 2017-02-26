@@ -2,25 +2,14 @@
 language: node_js
 node_js:
   - "6"
+  - "7"
 
 sudo: false
+cache: yarn
 
-cache:
-  directories:
-    - $HOME/.npm
-    - $HOME/.cache # includes bowers cache
-
-before_install:
-  - npm config set spin false
-  - npm install -g bower phantomjs-prebuilt
-  - bower --version
-  - phantomjs --version
-
-install:
-  - npm install joda-project/joda-core
-  - npm install joda-project/joda-misc --save-dev
-  - npm install
-  - bower install
+before_script:
+  - yarn upgrade joda-project/joda-core
+  - yarn add joda-project/joda-misc --dev
 
 script:
-  - npm test
+  - yarn test
