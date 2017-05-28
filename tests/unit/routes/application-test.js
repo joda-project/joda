@@ -5,7 +5,7 @@ import {
 
 moduleFor('route:application', 'Unit | Route | application', {
   // Specify the other units that are required for this test.
-  needs: ['service:session']
+  needs: ['service:session', 'service:joda', 'service:current-user']
 });
 
 test('it exists', function(assert) {
