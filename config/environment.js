@@ -1,9 +1,10 @@
 /* eslint-env node */
+'use strict';
 
 module.exports = function(environment) {
-  var ENV = {
+  let ENV = {
     modulePrefix: 'joda',
-    environment: environment,
+    environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -18,7 +19,7 @@ module.exports = function(environment) {
 
     Joda: {
       appName: 'Joda',
-      copyright: '&copy; 2004-2016 Tadej&nbsp;Novak',
+      copyright: '&copy; 2017 Tadej&nbsp;Novak',
       color: '#207178'
     },
 
