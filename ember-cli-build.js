@@ -17,7 +17,7 @@ module.exports = function(defaults) {
       extension: 'sass',
       onlyIncluded: true,
       includePaths: [
-        'node_modules'
+        'node_modules/bulma'
       ]
     }
   });
