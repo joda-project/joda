@@ -1,0 +1,24 @@
+.navbar
+  .navbar-title
+    line-height: 1
+    font-size: $size-5
+    font-weight: 500
+
+// TODO: hamburger temp
+.navbar-burger
+  +hover-animation
+
+  span
+    background-color: $navbar-item-hover
+
+  &:hover
+    background-color: $navbar-item-hover-background
+
+  // Modifers
+  &.is-active
+    span
+      background-color: $navbar-item-active
+
+.hero
+  .hero-head
+    box-shadow: 0 1px 0 rgba($border, 0.3)
