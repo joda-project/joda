@@ -18,9 +18,13 @@ module.exports = function(environment) {
     APP: {},
 
     Joda: {
-      appName: 'Joda',
+      appName: 'Joda DEV',
       copyright: '&copy; 2017 Tadej&nbsp;Novak',
       color: '#207178'
+    },
+
+    i18n: {
+      defaultLocale: 'en'
     },
 
     moment: {

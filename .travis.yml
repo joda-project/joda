@@ -9,6 +9,7 @@ cache: yarn
 
 before_script:
   - yarn upgrade joda-project/joda-core
+  - yarn upgrade joda-project/joda-i18n
   - yarn add joda-project/joda-misc --dev
 
 script:
