@@ -12,6 +12,9 @@ body
 .subtitle:not(:last-child)
   margin-bottom: 0.7rem
 
+.title:not(.is-spaced) + .subtitle
+  margin-top: -0.7rem
+
 @each $size in $sizes
   $i: index($sizes, $size)
   $ip: $i + 1

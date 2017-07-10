@@ -4,6 +4,16 @@
     font-size: $size-5
     font-weight: 500
 
+  +desktop
+    .navbar-user
+      line-height: 1
+      font-size: $size-5
+      font-weight: 500
+
+    .navbar-dropdown
+      // box-shadow: 0 2px 2px rgba($border, 0.3)
+      border: 1px solid rgba($border, 0.3)
+
 // TODO: hamburger temp
 .navbar-burger
   +hover-animation
@@ -22,3 +32,10 @@
 .hero
   .hero-head
     box-shadow: 0 1px 0 rgba($border, 0.3)
+
+.icon-avatar
+  margin-right: 0.75rem
+  background-size: contain
+  width: 40px
+  height: 40px
+  border-radius: 20px
