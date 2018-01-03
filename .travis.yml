@@ -1,16 +1,27 @@
 ---
 language: node_js
 node_js:
-  - "6"
-  - "7"
+  - "8"
+  - "9"
 
 sudo: false
+dist: trusty
+
 cache: yarn
 
+addons:
+  chrome: stable
+
+env:
+  global:
+    # See https://git.io/vdao3 for details.
+    - JOBS=1
+
 before_script:
-  - yarn upgrade joda-project/joda-core
-  - yarn upgrade joda-project/joda-i18n
+  - yarn add joda-project/joda-core --dev
+  - yarn add joda-project/joda-i18n --dev
   - yarn add joda-project/joda-misc --dev
 
 script:
+  - yarn run lint:js
   - yarn test
