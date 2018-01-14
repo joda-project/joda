@@ -1,0 +1,17 @@
+[uwsgi]
+project = joda
+plugin = python3
+base = /var/www/%(project)
+
+socket = /var/run/uwsgi/%(project).sock
+
+chdir = %(base)/backend
+module = %(project).wsgi:application
+
+processes = 5
+master = 1
+vacuum = True
+
+# for-readline = %(base)/backend/.env
+#   env = %(_)
+# endfor =

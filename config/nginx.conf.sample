@@ -1,0 +1,69 @@
+server
+{
+  listen 80;
+
+  gzip on;
+  gzip_vary on;
+  gzip_min_length 1000;
+  gzip_comp_level 5;
+  gzip_types application/json text/css application/x-javascript application/javascript image/svg+xml;
+  gzip_proxied any;
+
+  server_name enter.your.web.hostname.here;
+  server_tokens off;
+
+  sendfile on;
+
+  keepalive_timeout 65;
+
+  # maximum file upload size (keep up to date when changing the corresponding site setting)
+  client_max_body_size 10m;
+
+  # path to joda's frontend directory
+  set $frontend /var/www/joda/frontend;
+
+  # path to joda's backend directory
+  set $backend /var/www/joda/backend;
+
+  root $frontend/dist;
+
+  # do not cache html files
+  location ~* \.(?:html?)$
+  {
+    expires -1;
+  }
+
+  # assets should return 404 and be cached
+  location ~ ^/(assets|fonts|ember-fetch)/
+  {
+    try_files $uri $uri/ =404;
+
+    gzip_static on;
+
+    expires 1d;
+    add_header Cache-Control public,immutable;
+  }
+
+  # admin static files
+  location /static/
+  {
+    alias $backend/static/;
+
+    try_files $uri $uri/ =404;
+
+    gzip_static on;
+  }
+
+  # backed uwsgi
+  location ~ ^/(api|auth|admin)/
+  {
+    include uwsgi_params;
+    uwsgi_pass unix:/var/run/uwsgi/joda.sock;
+  }
+
+  # default location
+  location /
+  {
+    try_files $uri $uri/ /index.html?/$request_uri;
+  }
+}
