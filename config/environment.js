@@ -16,11 +16,7 @@ module.exports = function(environment) {
 
     APP: {},
 
-    Joda: {
-      appName: 'Joda DEV',
-      copyright: '&copy; 2017 Tadej&nbsp;Novak',
-      color: '#207178'
-    },
+    Joda: {},
 
     i18n: {
       defaultLocale: 'en'
@@ -30,6 +26,19 @@ module.exports = function(environment) {
       outputFormat: 'LLL'
     }
   };
+
+  // Joda specific
+  if (process.env.JODA_APP_NAME) {
+    ENV.Joda.appName = process.env.JODA_APP_NAME;
+  }
+
+  if (process.env.JODA_BACKEND_URI) {
+    ENV.Joda.backendUri = process.env.JODA_BACKEND_URI;
+  }
+
+  if (process.env.JODA_AUTH_KEY) {
+    ENV.Joda.authKey = process.env.JODA_AUTH_KEY;
+  }
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
